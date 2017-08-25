@@ -8,9 +8,9 @@ const pixi = path.join(phaserModule, 'build/custom/pixi.js')
 const p2 = path.join(phaserModule, 'build/custom/p2.js')
 
 module.exports = {
-  entry: './app.js',
+  entry: './client/game.js',
   output: {
-    filename: 'main.js'
+    filename: 'dist/main.js'
   },
   watch: true,
   node: {
