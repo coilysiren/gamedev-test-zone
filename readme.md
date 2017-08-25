@@ -59,7 +59,7 @@ for getting js packages (phaser, etc) to the client
 - https://webpack.js.org/
 - https://webpack.js.org/guides/getting-started/
 - https://webpack.js.org/concepts/
-- https://webpack.github.io/docs/configuration.html
+- https://webpack.js.org/configuration/
 - https://alejandronapoles.com/2016/09/29/simple-production-environment-with-webpack-and-express/
 
 ### example setups / boilerplate
