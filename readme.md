@@ -1,10 +1,23 @@
 # game dev test zone
 
-## setup
+## running
+
+setup
 
 ```bash
 npm install
+```
+
+dev mode
+
+```bash
 npm run start
+```
+
+production mode
+
+```bash
+heroku local -p 8081
 ```
 
 ## tools
