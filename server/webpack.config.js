@@ -5,15 +5,15 @@ var phaserModule = path.join(__dirname, '/../node_modules/phaser-ce/');
 var phaser = path.join(phaserModule, 'build/custom/phaser-split.js');
 var pixi = path.join(phaserModule, 'build/custom/pixi.js');
 var p2 = path.join(phaserModule, 'build/custom/p2.js');
+var gameJs = path.join(__dirname, '/../client/assets/js/game.js')
 
 module.exports = {
   entry: {
-    vendor: ['pixi', 'p2', 'phaser'],
-    main: ['./client/game.js']
+    main: [gameJs]
   },
   output: {
     filename: "[name].js",
-    path: __dirname + '/../dist'
+    path: path.join(__dirname, '/../dist')
   },
   devtool: 'cheap-source-map',
   watch: true,
