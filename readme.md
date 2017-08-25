@@ -39,10 +39,13 @@ heroku local -p 8081
 
 a js game framework
 
+phaser-ce 2.X is the most recent version, currently
+
 - https://phaser.io
 - https://phaser.io/docs/2.6.2/index
 - https://phaser.io/learn/community-tutorials
 - https://phaser.io/learn/official-tutorials
+- https://photonstorm.github.io/phaser-ce/-
 - https://github.com/photonstorm/phaser-ce/tree/master/resources
 - https://github.com/photonstorm/phaser-examples/tree/master/examples/world
 
