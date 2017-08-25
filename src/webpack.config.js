@@ -1,16 +1,16 @@
-const path = require('path')
-const webpack = require('webpack')
-
-// Phaser webpack config
-const phaserModule = path.join(__dirname, '/node_modules/phaser-ce/')
-const phaser = path.join(phaserModule, 'build/custom/phaser-split.js')
-const pixi = path.join(phaserModule, 'build/custom/pixi.js')
-const p2 = path.join(phaserModule, 'build/custom/p2.js')
+const phaser = './node_modules/phaser-ce/build/custom/phaser-split.js'
+const pixi = './node_modules/phaser-ce/build/custom/pixi.js'
+const p2 = './node_modules/phaser-ce/build/custom/p2.js'
 
 module.exports = {
   entry: './client/game.js',
+  entry: {
+    app: ['./client/game.js'],
+    vendor: ['pixi', 'p2', 'phaser']
+  },
   output: {
-    filename: 'dist/main.js'
+    filename: "[name].js",
+    path: __dirname + '/dist'
   },
   watch: true,
   node: {
