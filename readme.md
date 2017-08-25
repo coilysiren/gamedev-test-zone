@@ -48,3 +48,4 @@ for getting js packages (phaser, etc) to the client
 - https://github.com/lean/phaser-es6-webpack
 - https://github.com/christianalfoni/webpack-express-boilerplate
 - https://github.com/lynncyrin/rails-twitter-tools
+- https://github.com/cgreening/simple-webpack-react-starter
