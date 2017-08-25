@@ -1,4 +1,5 @@
-var app = require('express')()
+var express = require('express')
+var app = express()
 var DEFAULT_PORT = 8080
 
 app.set('view engine', 'ejs')
@@ -17,6 +18,8 @@ if (process.env.NODE_ENV !== "production") {
 app.get('/', (req, res) => {
   res.render('index')
 })
+
+app.use(express.static(__dirname + '/../dist'))
 
 app.listen(app.get("port"))
 console.log('listening on port '+ app.get("port"))
