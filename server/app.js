@@ -27,12 +27,15 @@
 // }
 
 const app = require('express')()
+const webpack = require('webpack')
+const DEFAULT_PORT = 8080
 
 app.set('view engine', 'ejs')
+app.set("port", process.env.PORT || DEFAULT_PORT);
 
 app.get('/', (req, res) => {
   res.render('index')
 })
 
-app.listen(8080)
-console.log('listening on port 8080')
+app.listen(app.get("port"))
+console.log('listening on port '+ app.get("port"))
