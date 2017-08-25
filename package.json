@@ -1,0 +1,14 @@
+{
+  "name": "PhaserTest",
+  "author": "Lynn Cyrin <lynncyrin@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "phaser-ce": "^2.8.4",
+    "webfontloader": "^1.6.28",
+    "webpack": "^3.5.5"
+  }
+}
