@@ -1,20 +1,26 @@
 # game dev test zone
 
+testing a game dev
+
 ## running
 
-setup
+### setup
+
+- nodejs + npm already installed
 
 ```bash
 npm install
 ```
 
-dev mode
+### dev mode
 
 ```bash
 npm run start
 ```
 
-production mode
+### mock production mode
+
+- heroku cli already installed
 
 ```bash
 heroku local -p 8081
