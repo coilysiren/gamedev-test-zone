@@ -1,4 +1,4 @@
-// const Phaser = require('phaser');
+// var Phaser = require('phaser');
 
 // var game = new Phaser.Game(
 //     800,
@@ -26,12 +26,21 @@
 // function update() {
 // }
 
-const app = require('express')()
-const webpack = require('webpack')
-const DEFAULT_PORT = 8080
+var app = require('express')()
+var DEFAULT_PORT = 8080
 
 app.set('view engine', 'ejs')
-app.set("port", process.env.PORT || DEFAULT_PORT);
+app.set("port", process.env.PORT || DEFAULT_PORT)
+
+if (process.env.NODE_ENV !== "production") {
+    var webpack = require('webpack')
+    var webpackDevMiddleware = require('webpack-dev-middleware')
+    var webpackHotMiddleware = require('webpack-hot-middleware')
+    var webpack_config = require('./webpack.config.js')
+    var compiler = webpack(webpack_config)
+    app.use(webpackDevMiddleware(compiler))
+    app.use(webpackHotMiddleware(compiler))
+}
 
 app.get('/', (req, res) => {
   res.render('index')
