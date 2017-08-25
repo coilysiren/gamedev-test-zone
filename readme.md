@@ -11,9 +11,10 @@ npm run start
 
 ### basics
 
-- heroku
-- nodejs
-- npm
+- heroku https://heroku.com
+- nodejs https://nodejs.org
+- npm https://www.npmjs.com
+- ejs http://ejs.co/
 
 ### phaser
 
