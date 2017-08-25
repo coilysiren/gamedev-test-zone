@@ -3,7 +3,7 @@
   "author": "Lynn Cyrin <lynncyrin@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "dependencies": {
     "ejs": "^2.5.7",
