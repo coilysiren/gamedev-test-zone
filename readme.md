@@ -1,21 +1,21 @@
-game dev test zone
+# game dev test zone
 
-# setup
+## setup
 
 ```bash
 npm install
 npm run start
 ```
 
-# tools
+## tools
 
-## basics
+### basics
 
 - heroku
 - nodejs
 - npm
 
-## phaser
+### phaser
 
 a js game framework
 
@@ -24,7 +24,7 @@ a js game framework
 - https://github.com/photonstorm/phaser-examples/tree/master/examples/world
 - https://phaser.io/tutorials/making-your-first-phaser-game
 
-## express
+### express
 
 a nodejs webserver
 
@@ -32,7 +32,7 @@ a nodejs webserver
 - https://expressjs.com/en/starter/hello-world.html
 - http://www.christianalfoni.com/articles/2015_04_19_The-ultimate-webpack-setup
 
-## webpack
+### webpack
 
 for getting js packages (phaser, etc) to the client
 
@@ -40,7 +40,7 @@ for getting js packages (phaser, etc) to the client
 - https://webpack.js.org/guides/getting-started/
 - https://webpack.js.org/concepts/
 
-## example setups / boilerplate
+### example setups / boilerplate
 
 - https://github.com/lean/phaser-es6-webpack
 - https://github.com/christianalfoni/webpack-express-boilerplate
