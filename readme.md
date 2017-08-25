@@ -41,6 +41,8 @@ a js game framework
 
 - https://phaser.io
 - https://phaser.io/docs/2.6.2/index
+- https://github.com/Raiper34/awesome-phaser
+- https://github.com/photonstorm/phaser-ce/tree/master/resources
 - https://github.com/photonstorm/phaser-examples/tree/master/examples/world
 - https://phaser.io/tutorials/making-your-first-phaser-game
 
