@@ -11,7 +11,7 @@ npm run start
 
 ### basics
 
-- heroku https://heroku.com
+- heroku https://devcenter.heroku.com/articles/getting-started-with-nodejs
 - nodejs https://nodejs.org
 - npm https://www.npmjs.com
 - ejs http://ejs.co/

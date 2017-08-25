@@ -3,7 +3,8 @@
   "author": "Lynn Cyrin <lynncyrin@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node server/app.js",
+    "build": "webpack --config server/webpack.config.js"
   },
   "dependencies": {
     "ejs": "^2.5.7",
