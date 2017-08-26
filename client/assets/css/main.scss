@@ -32,13 +32,13 @@ body {
         background:
             radial-gradient(black 5%, transparent 10%) 4px 4px,
             radial-gradient(rgba(255,255,255,.1) 5%, transparent 10%) 4px 5px;
-        background-color:rgba(128, 128, 128, 0.5);
+        background-color:rgba(60, 60, 60, 0.95);
         background-size:32px 32px;
         color: white;
         text-align: center;
         border: rgba(50,50,50,1) 2px solid;
         box-sizing: border-box;
-        box-shadow: 0 0 5px 1px rgba(250,250,250,0.5);
+        box-shadow: 0 0 4px 1px rgba(250,250,250,0.4);
         h1, a {
             padding: 0 5px;
         }
