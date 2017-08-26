@@ -1,8 +1,63 @@
 body {
     background: black;
+    font-family: 'Black Ops One', cursive;
 }
 
-.background-image {
-    position: absolute;
-    opacity: 0.3;
+#content {
+}
+
+.page-container {
+    position: relative;
+    > * {
+        position: absolute;
+    }
+    .background-image {
+        position: fixed;
+        opacity: 0.3;
+        z-index: -1000;
+    }
+    .middle {
+        left: 0;
+        right: 0;
+        position: static;
+    }
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 0;
+        width: 15%;
+        min-height: 100%;
+        // http://lea.verou.me/css3patterns/#carbon-fibre
+        background:
+            radial-gradient(black 5%, transparent 10%) 4px 4px,
+            radial-gradient(rgba(255,255,255,.1) 5%, transparent 10%) 4px 5px;
+        background-color:rgba(128, 128, 128, 0.5);
+        background-size:32px 32px;
+        color: white;
+        text-align: center;
+        border: rgba(50,50,50,1) 2px solid;
+        box-sizing: border-box;
+        box-shadow: 0 0 5px 1px rgba(250,250,250,0.5);
+        h1, a {
+            padding: 0 5px;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        hr {
+            width: 80%;
+            margin-top: 0;
+        }
+        a {
+            color: white;
+            font-size: 1.2em;
+        }
+    }
+    .bottom-left {
+        padding-bottom: 20px;
+    }
+    .right {
+        right: 0;
+    }
 }

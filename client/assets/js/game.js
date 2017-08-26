@@ -3,8 +3,8 @@ require('p2');
 var Phaser = require('phaser');
 
 var game = new Phaser.Game(
-    800,
-    600,
+    '100',
+    '100',
     Phaser.AUTO,
     'content',
     {

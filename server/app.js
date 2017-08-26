@@ -24,7 +24,10 @@ app.use(sassMiddleware({
     dest: compiledAssetsDir,
     debug: true,
     outputStyle: 'compressed',
-    prefix:  '/css'
+    sourceComments: true,
+    sourceMap: true,
+    sourceMapContents: true,
+    sourceMapEmbed: true
 }));
 
 app.use(express.static(compiledAssetsDir))
