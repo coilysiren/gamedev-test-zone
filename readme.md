@@ -1,5 +1,7 @@
 # game dev test zone
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lynncyrin/gamedev-test-zone.svg)](https://greenkeeper.io/)
+
 testing a game dev
 
 ## running
